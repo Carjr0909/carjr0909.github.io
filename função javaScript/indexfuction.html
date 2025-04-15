@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #b2{
+            margin-left: 30px;
+        }
+    </style>
+    <script>
+        function abrirAba(){
+            window.open(
+                'foto2.html', '_blank'
+            )
+        }
+        function abrirPopup(){
+            window.open(
+                'foto.html', 'popupFoto', 'width=1225px,height=750px,top=100,left=200'
+            )
+        }
+    </script>
+</head>
+<body>
+    <h1>Bem vindo ao abridor de foto</h1>
+    <p>Deseja abrir como?</p>
+    <a href="https://cinevibes.com.br/wp-content/uploads/2024/09/minecraft-movie.webp">Use o link e tanto faz</a>
+    <br><br>
+    <div>
+        <button onclick="abrirPopup()">Abrir a foto em Popup</button>
+        <button id="b2" onclick="abrirAba()">Abrir nova aba</button>
+    </div>
+
+</body>
+</html>
